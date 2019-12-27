@@ -1,0 +1,14 @@
+package ds.stack;
+
+public class Stack {
+	private int maxSize;
+	private long[] stackArray;
+	private int top;
+	
+	public Stack(int size) {
+		this.maxSize = size;
+		stackArray = new long[this.maxSize];
+		this.top=-1;
+	}
+	
+}
