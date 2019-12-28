@@ -1,0 +1,19 @@
+package ds.singlylinkedlist;
+
+public class Java {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SinglyLinkedList mylist = new SinglyLinkedList();
+		mylist.insertFirst(100);
+		mylist.insertFirst(50);
+		mylist.insertFirst(99);
+		mylist.insertFirst(98);
+		mylist.insertLast(999999);
+		
+		mylist.displayList();
+		
+		
+	}
+
+}
